@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #33333b;
+    --color2: #47474f;
+    --color-bleu: #26425f;
+    --color-p: #9cb853;
+    --titre: 'Rubik', sans-serif;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.section-produit{
+    height: auto;
+    margin: 10px auto;
+}
+
+.section-produit .product:hover{
+    border: 1px solid var(--color-p);
+    border-radius: 3px;
+}
+
+.section-produit .section-product-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.section-produit  h1{
+    display: block;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: var(--color-bleu);
+}
+
+.section-produit .product{
+    height: auto;
+    /* -webkit-box-shadow: 1px 3px 13px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 13px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 3px 13px -1px rgba(0,0,0,0.75); */
+    border: 1px solid #fff;
+}
+
+.section-produit .product .product-img{
+    position: relative;
+    width: 153px;
+    height: 153px;
+    margin: 0 auto;
+}
+
+.section-produit .product .product-img img{
+    height: 100%;
+    object-fit:fill;
+    display: block;
+    margin: 3px auto;
+    padding: 5px;
+}
+
+.section-produit .product .product-text{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem 0.2rem;
+}
+
+.section-produit .product .product-text span{
+    display: block;
+  font-size: 1rem;   
+  font-family: sans-serif;
+  color: var(--color-p);
+  text-align: center;
+  width: 100%;
+    margin: 0 auto;
+}
+
+.section-produit .product .product-text strong{
+    display: block;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: var(--color-bleu);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-produit .product .product-text .button-card{
+   display: flex;
+   justify-content: space-evenly;
+   width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-produit .product .product-text .button-card li{
+    list-style: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+
+}
+
+
+.section-produit .product .product-text .button-card li i{
+    color: var(--color1);
+    padding: 0.8rem 1.2rem;
+
+}
+
+.section-produit .product .product-text .button-card li:hover{
+
+    background-color: var(--color-p);
+}
+
+.e-doctor .e-doctor-block{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.e-doctor h1{
+    position: relative;
+    text-align: center;
+    font-size: 1.9rem;
+    color: var(--color-bleu);
+    font-family: var(--titre);
+}
+
+.e-doctor .e-doctor-block .e-content{
+    max-width: 300px;
+    padding: 10px 0;
+}
+
+.e-doctor .e-doctor-block .e-content .e-img{
+    position: relative;
+    height: auto;
+}
+
+.e-doctor .e-doctor-block .e-content .e-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.e-doctor .e-doctor-block .e-content .e-txt{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.e-doctor .e-doctor-block .e-content .e-txt h4{
+    color: #9cb853;
+}
+
+.e-doctor .e-doctor-block .e-content .e-txt p{
+    color: var(--color-bleu);
+}
+
+.canvas{
+    flex-direction: row;
+    width: 90% !important;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.e_cour{
+    width: 100%;
+    position: relative;
+}
+
+.e_cous_block h1{
+    font-size: 1.6rem;
+    color: var(--color-p);
+
+}
+
+.e_cous_block {
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+.e_cous_block div{
+    position: relative;
+    min-width: 250px;
+    margin: 0 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 3px 13px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 13px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 3px 13px -1px rgba(0,0,0,0.75); 
+}
+
+.e_cous_block div img{
+    position: absolute;
+    width: 100%;
+}
